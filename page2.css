@@ -1,0 +1,49 @@
+body, html{
+    height:100%;
+    margin:0;
+    padding:0;
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+    flex:1;
+}
+
+header{
+    background-color:red;
+    height:100px;
+    display:block;
+}
+
+footer{
+    background-color:darkgray;
+    height:200px;
+    display:block;
+}
+
+.content{
+    display:flex;
+    flex:1;
+    flex-direction:row;
+    justify-content:center;
+    align-items:stretch;
+}
+
+.left-content{
+    background-color:lightgray;
+    flex:.75;
+    border-style:solid;
+    border-width:2px;
+    border-color:grey;
+    margin:10px;
+}
+
+.right-content{
+    background-color:lightgray;
+    flex:.25;
+    border-style:solid;
+    border-width:2px;
+    border-color:grey;
+    margin:10px;
+}
